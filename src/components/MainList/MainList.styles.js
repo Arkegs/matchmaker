@@ -16,9 +16,12 @@ export const Content = styled.div`
             width: 90%;
     }
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
-
     h2{
+        width: 100%;
         background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(1,127,152,1) 100%);
         color: white;
         margin: 0;
@@ -29,7 +32,7 @@ export const Content = styled.div`
 `
 
 export const Player = styled.div`
-    width:100%;
+    width:45%;
     p{
         box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.5);
         text-align: left;
@@ -38,6 +41,9 @@ export const Player = styled.div`
         background-color: var(--lightGrey);
         cursor: pointer;
         transition: background-color 0.3s linear;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow:hidden;
 
         :hover{
             background-color: var(--lightMainColor);

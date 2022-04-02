@@ -1,32 +1,39 @@
 import React from 'react';
 import { GeneratorButton } from './Generator.styles';
 
-export const Generator = ({ setTeamOne, setTeamTwo, selectedTeam, setError }) =>{
+export const Generator = ({ setTeamOne, setTeamTwo, selectedTeam, setChangePlayer }) =>{
     const handleTeam = () =>{
-        console.log(selectedTeam);
-        if(selectedTeam.length < 8){
-            setError(true);
-            return;
-        }
-        const preTeam1 = {rank: 0, ATK: 0, DEF: 0, ARQ: 0, players:[]};
-        const preTeam2 = {rank: 0, ATK: 0, DEF: 0, ARQ: 0, players:[]};
+        setChangePlayer([]);
+        const preTeam1 = {overall:{ATK: 0, DEF: 0, ARQ: 0}, ATK: 0, DEF: 0, ARQ: 0, players:[]};
+        const preTeam2 = {overall:{ATK: 0, DEF: 0, ARQ: 0}, ATK: 0, DEF: 0, ARQ: 0, players:[]};
         selectedTeam.forEach((player) => {
             if(player.selected){
-                if((preTeam1[player.position] < preTeam2[player.position] + 50 && preTeam1.players.length <= preTeam2.players.length) || preTeam1.players.length + 1 <= preTeam2.players.length){
-                    preTeam1[player.position] += player.rank;
-                    preTeam1.players.push(player);
-                    
-                } else{
-                    preTeam2[player.position] += player.rank;
+                if(preTeam1.players.length <= preTeam2.players.length){
+                    if(preTeam1.overall[player.position] + player.overall[player.position] <= preTeam2.overall[player.position] + 50 || preTeam1[player.position] < preTeam2[player.position] + 1){
+                        preTeam1.overall.ATK += player.overall.ATK;
+                        preTeam1.overall.DEF += player.overall.DEF;
+                        preTeam1.overall.ARQ += player.overall.ARQ;
+                        preTeam1[player.position] += 1;
+                        preTeam1.players.push(player);
+                    } else{
+                        preTeam2.overall.ATK += player.overall.ATK;
+                        preTeam2.overall.DEF += player.overall.DEF;
+                        preTeam2.overall.ARQ += player.overall.ARQ;
+                        preTeam2[player.position] += 1;
+                        preTeam2.players.push(player);
+                    }
+                }
+                else{
+                    preTeam2.overall.ATK += player.overall.ATK;
+                    preTeam2.overall.DEF += player.overall.DEF;
+                    preTeam2.overall.ARQ += player.overall.ARQ;
+                    preTeam2[player.position] += 1;
                     preTeam2.players.push(player);
                 }
             }
         });
-        setTeamOne(preTeam1.players);
-        setTeamTwo(preTeam2.players);
-        setError(false);
-        console.log(`Team 1 ATK: ${preTeam1.ATK} DEF: ${preTeam1.DEF} ARQ: ${preTeam1.ARQ}` );
-        console.log(`Team 2 ATK: ${preTeam2.ATK} DEF: ${preTeam2.DEF} ARQ: ${preTeam2.ARQ}`);
+        setTeamOne(preTeam1);
+        setTeamTwo(preTeam2);
     }
 
     return(

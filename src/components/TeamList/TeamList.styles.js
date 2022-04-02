@@ -39,8 +39,21 @@ export const Content = styled.div`
         padding: 7px;
         margin: 0 auto;
         background-color: var(--lightGrey);
-        transition: background-color 0.3s linear;
+        transition: background-color 0.2s linear;
+        cursor: pointer;
+        
+        :active{
+            background-color: red;
+        }
     }
 
+    .overall{
+        border-bottom-left-radius: 50px 20px;
+        border-bottom-right-radius: 50px 20px;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(55,55,55,1) 35%, rgba(103,103,103,1) 100%);
+        color: white;
+        padding: 5px;
+        min-height: 20px;
+    }
 
 `;
