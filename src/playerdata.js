@@ -180,18 +180,6 @@ export const database = [
         selected: false
     },
     {
-        id: "SG16",
-        name: "Julio",
-        rank: 58,
-        overall:{
-            ATK: 54,
-            DEF: 22,
-            ARQ: 0
-        },
-        position: 'ATK',
-        selected: false
-    },
-    {
         id: "SG17",
         name: "Giovanni Orsi",
         rank: 55,
