@@ -217,6 +217,42 @@ export const database = [
     },
     {
         id: "SG19",
+        name: "Carlos",
+        rank: 65,
+        overall:{
+            ATK: 65,
+            DEF: 50,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG18",
+        name: "Gonza (Pablo Jr)",
+        rank: 65,
+        overall:{
+            ATK: 60,
+            DEF: 30,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG18",
+        name: "Jorge",
+        rank: 65,
+        overall:{
+            ATK: 60,
+            DEF: 50,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SGP1",
         name: "Parche ATK 1",
         rank: 55,
         overall:{
@@ -228,7 +264,7 @@ export const database = [
         selected: false
     },
     {
-        id: "SG20",
+        id: "SGP2",
         name: "Parche ATK 2",
         rank: 55,
         overall:{
@@ -240,7 +276,7 @@ export const database = [
         selected: false
     },
     {
-        id: "SG21",
+        id: "SGP3",
         name: "Parche DEF 1",
         rank: 55,
         overall:{
@@ -252,7 +288,7 @@ export const database = [
         selected: false
     },
     {
-        id: "SG22",
+        id: "SGP4",
         name: "Parche DEF 2",
         rank: 55,
         overall:{
@@ -264,7 +300,7 @@ export const database = [
         selected: false
     },
     {
-        id: "SG23",
+        id: "SGP5",
         name: "Parche ARQ 1",
         rank: 55,
         overall:{
@@ -276,7 +312,7 @@ export const database = [
         selected: false
     },
     {
-        id: "SG24",
+        id: "SGP6",
         name: "Parche ARQ 2",
         rank: 55,
         overall:{
