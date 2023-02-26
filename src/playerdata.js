@@ -228,7 +228,7 @@ export const database = [
         selected: false
     },
     {
-        id: "SG18",
+        id: "SG20",
         name: "Gonza (Pablo Jr)",
         rank: 65,
         overall:{
@@ -240,7 +240,7 @@ export const database = [
         selected: false
     },
     {
-        id: "SG18",
+        id: "SG21",
         name: "Jorge",
         rank: 65,
         overall:{
