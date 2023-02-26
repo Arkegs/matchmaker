@@ -148,11 +148,11 @@ export const database = [
         name: "Pablo Tapia",
         rank: 65,
         overall:{
-            ATK: 42,
-            DEF: 23,
-            ARQ: 61
+            ATK: 52,
+            DEF: 43,
+            ARQ: 0
         },
-        position: 'ARQ',
+        position: 'ATK',
         selected: false
     },
     {
