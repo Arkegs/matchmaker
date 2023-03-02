@@ -4,8 +4,8 @@ export const database = [
         name: "Gabriel Rubio",
         rank: 45,
         overall:{
-            ATK: 47,
-            DEF: 22,
+            ATK: 72,
+            DEF: 40,
             ARQ: 0
         },
         position: 'ATK',
@@ -16,11 +16,11 @@ export const database = [
         name: "Jano Venegas",
         rank: 40,
         overall:{
-            ATK: 39,
-            DEF: 17,
+            ATK: 61,
+            DEF: 75,
             ARQ: 0
         },
-        position: 'ATK',
+        position: 'DEF',
         selected: false
     },
     {
@@ -28,8 +28,8 @@ export const database = [
         name: "Negro José",
         rank: 55,
         overall:{
-            ATK: 26,
-            DEF: 57,
+            ATK: 37,
+            DEF: 94,
             ARQ: 0
         },
         position: 'DEF',
@@ -40,8 +40,8 @@ export const database = [
         name: "Pancho Tapia",
         rank: 45,
         overall:{
-            ATK: 19,
-            DEF: 46,
+            ATK: 30,
+            DEF: 70,
             ARQ: 0
         },
         position: 'DEF',
@@ -52,8 +52,8 @@ export const database = [
         name: "Pipe Maturana",
         rank: 75,
         overall:{
-            ATK: 79,
-            DEF: 24,
+            ATK: 88,
+            DEF: 55,
             ARQ: 0
         },
         position: 'ATK',
@@ -64,8 +64,8 @@ export const database = [
         name: "Roberto Novita",
         rank: 78,
         overall:{
-            ATK: 76,
-            DEF: 25,
+            ATK: 90,
+            DEF: 72,
             ARQ: 0
         },
         position: 'ATK',
@@ -76,8 +76,8 @@ export const database = [
         name: "Cezar",
         rank: 40,
         overall:{
-            ATK: 21,
-            DEF: 43,
+            ATK: 57,
+            DEF: 62,
             ARQ: 0
         },
         position: 'DEF',
@@ -87,8 +87,8 @@ export const database = [
         id: "SG8",
         name: "Cristobal Oyarzun",
         overall:{
-            ATK: 61,
-            DEF: 41,
+            ATK: 67,
+            DEF: 57,
             ARQ: 0
         },
         rank: 70,
@@ -100,8 +100,8 @@ export const database = [
         name: "Matias Orsi",
         rank: 50,
         overall:{
-            ATK: 24,
-            DEF: 51,
+            ATK: 43,
+            DEF: 73,
             ARQ: 0
         },
         position: 'DEF',
@@ -112,8 +112,8 @@ export const database = [
         name: "Matias Sura",
         rank: 55,
         overall:{
-            ATK: 21,
-            DEF: 59,
+            ATK: 51,
+            DEF: 76,
             ARQ: 0
         },
         position: 'DEF',
@@ -124,9 +124,9 @@ export const database = [
         name: "Pablo Avendaño",
         rank: 68,
         overall:{
-            ATK: 29,
-            DEF: 12,
-            ARQ: 69
+            ATK: 30,
+            DEF: 36,
+            ARQ: 79
         },
         position: 'ARQ',
         selected: false
@@ -136,8 +136,8 @@ export const database = [
         name: "Pablo Berrios",
         rank: 80,
         overall:{
-            ATK: 81,
-            DEF: 22,
+            ATK: 91,
+            DEF: 62,
             ARQ: 0
         },
         position: 'ATK',
@@ -148,8 +148,8 @@ export const database = [
         name: "Pablo Tapia",
         rank: 65,
         overall:{
-            ATK: 52,
-            DEF: 43,
+            ATK: 66,
+            DEF: 58,
             ARQ: 0
         },
         position: 'ATK',
@@ -160,8 +160,8 @@ export const database = [
         name: "Matito",
         rank: 88,
         overall:{
-            ATK: 89,
-            DEF: 35,
+            ATK: 98,
+            DEF: 81,
             ARQ: 0
         },
         position: 'ATK',
@@ -172,9 +172,9 @@ export const database = [
         name: "Jate",
         rank: 70,
         overall:{
-            ATK: 5,
-            DEF: 12,
-            ARQ: 77
+            ATK: 26,
+            DEF: 46,
+            ARQ: 88
         },
         position: 'ARQ',
         selected: false
@@ -184,8 +184,8 @@ export const database = [
         name: "Giovanni Orsi",
         rank: 55,
         overall:{
-            ATK: 20,
-            DEF: 62,
+            ATK: 35,
+            DEF: 90,
             ARQ: 0
         },
         position: 'DEF',
@@ -196,8 +196,8 @@ export const database = [
         name: "Lucas Jate",
         rank: 65,
         overall:{
-            ATK: 65,
-            DEF: 26,
+            ATK: 76,
+            DEF: 73,
             ARQ: 0
         },
         position: 'ATK',
@@ -208,8 +208,8 @@ export const database = [
         name: "Carlos",
         rank: 65,
         overall:{
-            ATK: 65,
-            DEF: 50,
+            ATK: 77,
+            DEF: 51,
             ARQ: 0
         },
         position: 'ATK',
@@ -220,8 +220,8 @@ export const database = [
         name: "Gonza (Pablo Jr)",
         rank: 65,
         overall:{
-            ATK: 60,
-            DEF: 30,
+            ATK: 68,
+            DEF: 46,
             ARQ: 0
         },
         position: 'ATK',
@@ -232,8 +232,8 @@ export const database = [
         name: "Jorge",
         rank: 65,
         overall:{
-            ATK: 60,
-            DEF: 50,
+            ATK: 87,
+            DEF: 77,
             ARQ: 0
         },
         position: 'ATK',
