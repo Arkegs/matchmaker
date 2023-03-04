@@ -15,9 +15,9 @@ export const TeamList = ( {header, color, team, setChangePlayer, changePlayer} )
                     <p onClick={() => handleChangePlayer(player)} key={player.id}>{player.name}</p>
                 ))}
                 <div className='overall'>
-                    Overall - ATK: {team.overall.ATK} DEF: {team.overall.DEF} ARQ: {team.overall.ARQ}
+                    Overall - ATK: {team.overall.ATK} DEF: {team.overall.DEF}
                     <br />
-                    Posiciones - ATK: {team.ATK} DEF: {team.DEF}
+                    Posiciones - ATK: {team.ATK} DEF: {team.DEF} ARQ: {team.ARQ}
                 </div>
             </Content>
         </Wrapper>
