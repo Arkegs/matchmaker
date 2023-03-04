@@ -17,7 +17,7 @@ export const TeamList = ( {header, color, team, setChangePlayer, changePlayer} )
                 <div className='overall'>
                     Overall - ATK: {team.overall.ATK} DEF: {team.overall.DEF} ARQ: {team.overall.ARQ}
                     <br />
-                    Posiciones - ATK: {team.ATK} DEF: {team.DEF} ARQ: {team.ARQ}
+                    Posiciones - ATK: {team.ATK} DEF: {team.DEF}
                 </div>
             </Content>
         </Wrapper>
