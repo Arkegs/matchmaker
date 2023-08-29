@@ -41,7 +41,7 @@ export const database = [
         rank: 45,
         overall:{
             ATK: 30,
-            DEF: 70,
+            DEF: 80,
             ARQ: 0
         },
         position: 'DEF',
@@ -52,7 +52,7 @@ export const database = [
         name: "Pipe Maturana",
         rank: 75,
         overall:{
-            ATK: 80,
+            ATK: 85,
             DEF: 45,
             ARQ: 0
         },
@@ -64,7 +64,7 @@ export const database = [
         name: "Roberto Novita",
         rank: 78,
         overall:{
-            ATK: 85,
+            ATK: 90,
             DEF: 70,
             ARQ: 0
         },
@@ -76,7 +76,7 @@ export const database = [
         name: "Cezar",
         rank: 40,
         overall:{
-            ATK: 60,
+            ATK: 50,
             DEF: 60,
             ARQ: 0
         },
@@ -100,8 +100,8 @@ export const database = [
         name: "Matias Orsi",
         rank: 50,
         overall:{
-            ATK: 45,
-            DEF: 70,
+            ATK: 42,
+            DEF: 75,
             ARQ: 0
         },
         position: 'DEF',
@@ -136,7 +136,7 @@ export const database = [
         name: "Pablo Berrios",
         rank: 80,
         overall:{
-            ATK: 87,
+            ATK: 90,
             DEF: 60,
             ARQ: 0
         },
