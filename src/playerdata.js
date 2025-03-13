@@ -29,7 +29,7 @@ export const database = [
         rank: 55,
         overall:{
             ATK: 45,
-            DEF: 94,
+            DEF: 78,
             ARQ: 0
         },
         position: 'DEF',
@@ -41,7 +41,7 @@ export const database = [
         rank: 45,
         overall:{
             ATK: 30,
-            DEF: 80,
+            DEF: 60,
             ARQ: 0
         },
         position: 'DEF',
@@ -52,8 +52,8 @@ export const database = [
         name: "Pipe Maturana",
         rank: 75,
         overall:{
-            ATK: 85,
-            DEF: 45,
+            ATK: 80,
+            DEF: 50,
             ARQ: 0
         },
         position: 'ATK',
@@ -64,8 +64,8 @@ export const database = [
         name: "Roberto Novita",
         rank: 78,
         overall:{
-            ATK: 90,
-            DEF: 70,
+            ATK: 85,
+            DEF: 55,
             ARQ: 0
         },
         position: 'ATK',
@@ -76,8 +76,8 @@ export const database = [
         name: "Cezar",
         rank: 40,
         overall:{
-            ATK: 50,
-            DEF: 60,
+            ATK: 45,
+            DEF: 70,
             ARQ: 0
         },
         position: 'DEF',
@@ -184,8 +184,8 @@ export const database = [
         name: "Giovanni Orsi",
         rank: 55,
         overall:{
-            ATK: 35,
-            DEF: 90,
+            ATK: 30,
+            DEF: 85,
             ARQ: 0
         },
         position: 'DEF',
@@ -217,14 +217,50 @@ export const database = [
     },
     {
         id: "SG20",
-        name: "Gonza (Pablo Jr)",
+        name: "Pancho Muñoz",
         rank: 65,
         overall:{
-            ATK: 62,
-            DEF: 46,
+            ATK: 70,
+            DEF: 45,
             ARQ: 0
         },
         position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG21",
+        name: "Shamir",
+        rank: 65,
+        overall:{
+            ATK: 40,
+            DEF: 45,
+            ARQ: 0
+        },
+        position: 'DEF',
+        selected: false
+    },
+    {
+        id: "SG22",
+        name: "Yisus C",
+        rank: 65,
+        overall:{
+            ATK: 35,
+            DEF: 48,
+            ARQ: 0
+        },
+        position: 'DEF',
+        selected: false
+    },
+    {
+        id: "SG23",
+        name: "Cami",
+        rank: 65,
+        overall:{
+            ATK: 55,
+            DEF: 78,
+            ARQ: 0
+        },
+        position: 'DEF',
         selected: false
     },
     {
