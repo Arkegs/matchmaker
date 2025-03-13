@@ -26,7 +26,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('https://cutewallpaper.org/21/football-stadium-background-hd/American-Football-Stadium-Nightfootball-Stadium-D-Hd-.jpg') no-repeat fixed center;
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../public/stadium.jpg') no-repeat fixed center;
     }
 
     h2{
