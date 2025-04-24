@@ -24,8 +24,32 @@ export const database = [
         selected: false
     },
     {
+        id: "SG2-A",
+        name: "🧤 Jano (ARQ Mode)",
+        rank: 40,
+        overall:{
+            ATK: 68,
+            DEF: 68,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
         id: "SG3",
         name: "🛡️ Negro José",
+        rank: 55,
+        overall:{
+            ATK: 45,
+            DEF: 78,
+            ARQ: 0
+        },
+        position: 'DEF',
+        selected: false
+    },
+    {
+        id: "SG3-A",
+        name: "🧤 Negro (ARQ Mode)",
         rank: 55,
         overall:{
             ATK: 45,
@@ -155,18 +179,18 @@ export const database = [
         position: 'ATK',
         selected: false
     },
-    // {
-    //     id: "SG14",
-    //     name: "🛡️ David",
-    //     rank: 88,
-    //     overall:{
-    //         ATK: 40,
-    //         DEF: 60,
-    //         ARQ: 0
-    //     },
-    //     position: 'DEF',
-    //     selected: false
-    // },
+    {
+        id: "SG14",
+        name: "🛡️ David",
+        rank: 88,
+        overall:{
+            ATK: 40,
+            DEF: 60,
+            ARQ: 0
+        },
+        position: 'DEF',
+        selected: false
+    },
     {
         id: "SG15",
         name: "🧤 Jate",
@@ -217,14 +241,14 @@ export const database = [
     },
     {
         id: "SG20",
-        name: "🗡️ Pancho Muñoz",
+        name: "🛡️ Pancho Muñoz",
         rank: 65,
         overall:{
-            ATK: 70,
-            DEF: 45,
+            ATK: 60,
+            DEF: 68,
             ARQ: 0
         },
-        position: 'ATK',
+        position: 'DEF',
         selected: false
     },
     {
@@ -273,6 +297,42 @@ export const database = [
             ARQ: 0
         },
         position: 'DEF',
+        selected: false
+    },
+    {
+        id: "SG25",
+        name: "🗡️ Pipe Pedrals",
+        rank: 65,
+        overall:{
+            ATK: 65,
+            DEF: 60,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG26",
+        name: "🛡️ Ronny",
+        rank: 65,
+        overall:{
+            ATK: 60,
+            DEF: 65,
+            ARQ: 0
+        },
+        position: 'DEF',
+        selected: false
+    },
+    {
+        id: "SG27",
+        name: "🗡️ Mateo",
+        rank: 65,
+        overall:{
+            ATK: 65,
+            DEF: 55,
+            ARQ: 0
+        },
+        position: 'ATK',
         selected: false
     },
     {
