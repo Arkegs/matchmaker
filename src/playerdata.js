@@ -2,7 +2,7 @@ export const database = [
     {
         id: "SG1",
         name: "🗡️ Gabriel Rubio",
-        sortName: "🗡️ Gabriel Rubio",
+        sortName: "ATK Gabriel Rubio",
         rank: 45,
         overall:{
             ATK: 58,
@@ -15,7 +15,7 @@ export const database = [
     {
         id: "SG2",
         name: "🗡️ Jano Venegas",
-        sortName: "🗡️ Jano Venegas",
+        sortName: "ATK Jano Venegas",
         rank: 40,
         overall:{
             ATK: 68,
@@ -28,7 +28,7 @@ export const database = [
     {
         id: "SG2-A",
         name: "🧤 Jano (ARQ Mode)",
-        sortName: "🧤 Jano (ARQ Mode)",
+        sortName: "XARQ Jano (ARQ Mode)",
         rank: 40,
         overall:{
             ATK: 10,
@@ -41,7 +41,7 @@ export const database = [
     {
         id: "SG3",
         name: "🛡️ Negro José",
-        sortName: "🛡️ Negro José",
+        sortName: "DEF Negro José",
         rank: 55,
         overall:{
             ATK: 45,
@@ -54,7 +54,7 @@ export const database = [
     {
         id: "SG3-A",
         name: "🧤 Negro (ARQ Mode)",
-        sortName: "🧤 Negro (ARQ Mode)",
+        sortName: "XARQ Negro (ARQ Mode)",
         rank: 55,
         overall:{
             ATK: 20,
@@ -67,7 +67,7 @@ export const database = [
     {
         id: "SG4",
         name: "🛡️ Pancho Tapia",
-        sortName: "🛡️ Pancho Tapia",
+        sortName: "DEF Pancho Tapia",
         rank: 45,
         overall:{
             ATK: 30,
@@ -80,7 +80,7 @@ export const database = [
     {
         id: "SG5",
         name: "🗡️ Pipe Maturana",
-        sortName: "🗡️ Pipe Maturana",
+        sortName: "ATK Pipe Maturana",
         rank: 75,
         overall:{
             ATK: 80,
@@ -93,7 +93,7 @@ export const database = [
     {
         id: "SG6",
         name: "🗡️ Roberto Novita",
-        sortName: "🗡️ Roberto Novita",
+        sortName: "ATK Roberto Novita",
         rank: 78,
         overall:{
             ATK: 85,
@@ -106,7 +106,7 @@ export const database = [
     {
         id: "SG7",
         name: "🛡️ Cezar",
-        sortName: "🛡️ Cezar",
+        sortName: "DEF Cezar",
         rank: 40,
         overall:{
             ATK: 45,
@@ -119,7 +119,7 @@ export const database = [
     {
         id: "SG8",
         name: "🗡️ Martincito",
-        sortName: "🗡️ Martincito",
+        sortName: "ATK Martincito",
         overall:{
             ATK: 74,
             DEF: 45,
@@ -132,7 +132,7 @@ export const database = [
     {
         id: "SG9",
         name: "🛡️ Matias Orsi",
-        sortName: "🛡️ Matias Orsi",
+        sortName: "DEF Matias Orsi",
         rank: 50,
         overall:{
             ATK: 42,
@@ -145,7 +145,7 @@ export const database = [
     {
         id: "SG10",
         name: "🗡️ Matias Sura",
-        sortName: "🗡️ Matias Sura",
+        sortName: "ATK Matias Sura",
         rank: 55,
         overall:{
             ATK: 69,
@@ -158,7 +158,7 @@ export const database = [
     {
         id: "SG11",
         name: "🧤 Pablo Avendaño",
-        sortName: "🧤 Pablo Avendaño",
+        sortName: "XARQ Pablo Avendaño",
         rank: 68,
         overall:{
             ATK: 30,
@@ -171,7 +171,7 @@ export const database = [
     {
         id: "SG12",
         name: "🗡️ Pablo Berrios",
-        sortName: "🗡️ Pablo Berrios",
+        sortName: "ATK Pablo Berrios",
         rank: 80,
         overall:{
             ATK: 90,
@@ -184,7 +184,7 @@ export const database = [
     {
         id: "SG13",
         name: "🗡️ Pablo Tapia",
-        sortName: "🗡️ Pablo Tapia",
+        sortName: "ATK Pablo Tapia",
         rank: 65,
         overall:{
             ATK: 66,
@@ -197,7 +197,7 @@ export const database = [
     {
         id: "SG14",
         name: "🛡️ David",
-        sortName: "🛡️ David",
+        sortName: "DEF David",
         rank: 88,
         overall:{
             ATK: 40,
@@ -210,7 +210,7 @@ export const database = [
     {
         id: "SG15",
         name: "🧤 Jate",
-        sortName: "🧤 Jate",
+        sortName: "XARQ Jate",
         rank: 70,
         overall:{
             ATK: 26,
@@ -223,7 +223,7 @@ export const database = [
     {
         id: "SG17",
         name: "🛡️ Giovanni Orsi",
-        sortName: "🛡️ Giovanni Orsi",
+        sortName: "DEF Giovanni Orsi",
         rank: 55,
         overall:{
             ATK: 30,
@@ -236,7 +236,7 @@ export const database = [
     {
         id: "SG18",
         name: "🗡️ Lucas Jate",
-        sortName: "🗡️ Lucas Jate",
+        sortName: "ATK Lucas Jate",
         rank: 65,
         overall:{
             ATK: 70,
@@ -249,7 +249,7 @@ export const database = [
     {
         id: "SG19",
         name: "🗡️ Carlos",
-        sortName: "🗡️ Carlos",
+        sortName: "ATK Carlos",
         rank: 65,
         overall:{
             ATK: 77,
@@ -262,7 +262,7 @@ export const database = [
     {
         id: "SG20",
         name: "🛡️ Pancho Muñoz",
-        sortName: "🛡️ Pancho Muñoz",
+        sortName: "DEF Pancho Muñoz",
         rank: 65,
         overall:{
             ATK: 60,
@@ -275,7 +275,7 @@ export const database = [
     {
         id: "SG21",
         name: "🛡️ Shamir",
-        sortName: "🛡️ Shamir",
+        sortName: "DEF Shamir",
         rank: 65,
         overall:{
             ATK: 40,
@@ -288,7 +288,7 @@ export const database = [
     {
         id: "SG22",
         name: "🛡️ Yisus C",
-        sortName: "🛡️ Yisus C",
+        sortName: "DEF Yisus C",
         rank: 65,
         overall:{
             ATK: 35,
@@ -301,7 +301,7 @@ export const database = [
     {
         id: "SG23",
         name: "🛡️ Cami",
-        sortName: "🛡️ Cami",
+        sortName: "DEF Cami",
         rank: 65,
         overall:{
             ATK: 55,
@@ -314,7 +314,7 @@ export const database = [
     {
         id: "SG24",
         name: "🛡️ Cristian V",
-        sortName: "🛡️ Cristian V",
+        sortName: "DEF Cristian V",
         rank: 65,
         overall:{
             ATK: 65,
@@ -327,10 +327,10 @@ export const database = [
     {
         id: "SG25",
         name: "🗡️ Pipe Pedrals",
-        sortName: "🗡️ Pipe Pedrals",
+        sortName: "ATK Pipe Pedrals",
         rank: 65,
         overall:{
-            ATK: 65,
+            ATK: 60,
             DEF: 60,
             ARQ: 0
         },
@@ -340,11 +340,11 @@ export const database = [
     {
         id: "SG26",
         name: "🛡️ Ronny",
-        sortName: "🛡️ Ronny",
+        sortName: "DEF Ronny",
         rank: 65,
         overall:{
-            ATK: 60,
-            DEF: 65,
+            ATK: 50,
+            DEF: 75,
             ARQ: 0
         },
         position: 'DEF',
@@ -353,11 +353,63 @@ export const database = [
     {
         id: "SG27",
         name: "🗡️ Mateo",
-        sortName: "🗡️ Mateo",
+        sortName: "ATK Mateo",
+        rank: 65,
+        overall:{
+            ATK: 79,
+            DEF: 50,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG28",
+        name: "🗡️ Joaco",
+        sortName: "ATK Joaco",
         rank: 65,
         overall:{
             ATK: 65,
             DEF: 55,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG29",
+        name: "🛡️ Wu",
+        sortName: "DEF Wu",
+        rank: 65,
+        overall:{
+            ATK: 49,
+            DEF: 72,
+            ARQ: 0
+        },
+        position: 'DEF',
+        selected: false
+    },
+    {
+        id: "SG30",
+        name: "🗡️ Matito",
+        sortName: "ATK Matito",
+        rank: 65,
+        overall:{
+            ATK: 84,
+            DEF: 65,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG31",
+        name: "🗡️ Seba",
+        sortName: "ATK Seba",
+        rank: 65,
+        overall:{
+            ATK: 86,
+            DEF: 76,
             ARQ: 0
         },
         position: 'ATK',

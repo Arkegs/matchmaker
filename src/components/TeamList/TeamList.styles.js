@@ -22,7 +22,7 @@ export const Content = styled.div`
     }
 
     .blackTeam{
-        background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(230, 122, 122, 1) 28%, rgba(199, 38, 38, 1) 36%, rgba(199, 150, 36, 1) 44%, rgba(202, 199, 36, 1) 52%, rgba(128, 209, 36, 1) 60%, rgba(37, 175, 44, 1) 68%, rgba(43, 142, 142, 1) 76%, rgba(104, 104, 108, 1) 84%, rgba(178, 62, 130, 1) 92%);
+        background: radial-gradient(circle,rgba(255, 255, 255, 1) 16%, rgba(245, 252, 255, 1) 39%, rgba(127, 234, 250, 1) 100%);
         color: black;
     }
 
