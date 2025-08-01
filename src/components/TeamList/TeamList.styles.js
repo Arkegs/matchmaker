@@ -17,12 +17,13 @@ export const Content = styled.div`
     margin: 0 auto;
     text-align: center;
     .redTeam{
-        background: linear-gradient(0deg, rgba(61,0,0,1) 0%, rgba(108,5,5,1) 35%, rgba(213,0,0,1) 100%);
+        background: radial-gradient(circle,rgba(5, 0, 0, 1) 8%, rgba(242, 2, 2, 1) 100%);
+        color: white;
     }
 
     .blackTeam{
-        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(6,6,6,1) 35%, rgba(54,54,54,1) 100%);
-        color: white;
+        background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(230, 122, 122, 1) 28%, rgba(199, 38, 38, 1) 36%, rgba(199, 150, 36, 1) 44%, rgba(202, 199, 36, 1) 52%, rgba(128, 209, 36, 1) 60%, rgba(37, 175, 44, 1) 68%, rgba(43, 142, 142, 1) 76%, rgba(104, 104, 108, 1) 84%, rgba(178, 62, 130, 1) 92%);
+        color: black;
     }
 
     h2{
