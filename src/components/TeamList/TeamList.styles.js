@@ -17,12 +17,12 @@ export const Content = styled.div`
     margin: 0 auto;
     text-align: center;
     .redTeam{
-        background: radial-gradient(circle,rgba(5, 0, 0, 1) 8%, rgba(242, 2, 2, 1) 100%);
+        background: radial-gradient(circle,rgba(0, 0, 0, 1) 16%, rgba(217, 17, 17, 1) 79%);
         color: white;
     }
 
     .blackTeam{
-        background: radial-gradient(circle,rgba(255, 255, 255, 1) 16%, rgba(245, 252, 255, 1) 39%, rgba(127, 234, 250, 1) 100%);
+        background: radial-gradient(circle,rgba(255, 255, 255, 1) 16%, rgba(127, 234, 250, 1) 79%);
         color: black;
     }
 

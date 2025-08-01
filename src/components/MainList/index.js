@@ -17,7 +17,7 @@ export const MainList = ( {database, setSelectedTeam} ) => {
         <Wrapper>
             <Content>
                 <h2>Jugadores</h2>
-                {database.map(player => (
+                {database.sort((a, b) => a.sortName.localeCompare(b.sortName)).map(player => (
                     <Player 
                         key={player.id} 
                         onClick={() => handlePlayer(player.id)}

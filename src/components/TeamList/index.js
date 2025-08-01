@@ -11,7 +11,7 @@ export const TeamList = ( {header, color, team, setChangePlayer, changePlayer} )
         <Wrapper>
             <Content>
                 <h2 className={color}>{header}</h2>
-                {team.players.sort((a, b) => a.sortName.localeCompare(b.sortName)).map(player => (
+                {team.players.map(player => (
                     <p onClick={() => handleChangePlayer(player)} key={player.id}>{player.name}</p>
                 ))}
                 <div className='overall'>
