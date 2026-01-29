@@ -404,12 +404,64 @@ export const database = [
     },
     {
         id: "SG31",
-        name: "🗡️ Seba",
+        name: "🗡️ Seba (Parche Pablo)",
         sortName: "ATK Seba",
         rank: 65,
         overall:{
             ATK: 86,
             DEF: 76,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG32",
+        name: "🧤 Skippy",
+        sortName: "XARQ Skippy",
+        rank: 40,
+        overall:{
+            ATK: 10,
+            DEF: 10,
+            ARQ: 90
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG33",
+        name: "🛡️ Rick",
+        sortName: "DEF Rick",
+        rank: 40,
+        overall:{
+            ATK: 65,
+            DEF: 70,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG34",
+        name: "🛡️ Jorgito",
+        sortName: "DEF Jorgito",
+        rank: 40,
+        overall:{
+            ATK: 20,
+            DEF: 80,
+            ARQ: 0
+        },
+        position: 'ATK',
+        selected: false
+    },
+    {
+        id: "SG35",
+        name: "🛡️ Jorge Lopez",
+        sortName: "DEF Jorge Lopez",
+        rank: 40,
+        overall:{
+            ATK: 45,
+            DEF: 65,
             ARQ: 0
         },
         position: 'ATK',
